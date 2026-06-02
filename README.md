@@ -1,14 +1,14 @@
 <<<<<<< HEAD
 
 =======
-# Production-grade App Deployment Platform 🚀
+# Production-grade App Deployment Platform 
 ### (Mini Heroku on AWS)
 
 A production-inspired deployment platform built on AWS — push code to GitHub and it automatically builds, containerizes, and deploys your app with auto-scaling and monitoring.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 \`\`\`
 git push → GitHub Actions
@@ -26,7 +26,7 @@ git push → GitHub Actions
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -41,14 +41,14 @@ git push → GitHub Actions
 
 ---
 
-## 🚀 Features (Progressive Build)
+## Features (Progressive Build)
 
 - [x] FastAPI app containerized with Docker
 - [x] ECR repository created via Terraform
 - [x] ECS cluster created via Terraform
 - [x] Docker image pushed to ECR
-- [ ] ECS Task Definition + Service
-- [ ] ALB Load Balancer
+- [x] ECS Task Definition + Service
+- [x] ALB Load Balancer
 - [ ] Auto Scaling policy
 - [ ] GitHub Actions CI/CD pipeline
 - [ ] CloudWatch monitoring + SNS alerts
@@ -56,7 +56,7 @@ git push → GitHub Actions
 
 ---
 
-## 🧠 System Design Concepts Covered
+## System Design Concepts Covered
 
 - **Containerization** — Docker for consistent deployments
 - **Infrastructure as Code** — Terraform for reproducible infra
@@ -68,7 +68,7 @@ git push → GitHub Actions
 
 ---
 
-## 📦 Local Setup
+## Local Setup
 
 \`\`\`bash
 # Clone repo
@@ -87,7 +87,7 @@ curl http://localhost:8000/health
 
 ---
 
-## 🏗️ Infrastructure Setup
+## Infrastructure Setup
 
 \`\`\`bash
 # Initialize Terraform
@@ -103,7 +103,7 @@ terraform apply
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Ashwin** — ECE Student | Aspiring Cloud & DevOps Engineer
 
