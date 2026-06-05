@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 # Production-grade App Deployment Platform 
 ### (Mini Heroku on AWS)
 
