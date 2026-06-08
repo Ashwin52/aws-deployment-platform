@@ -7,7 +7,6 @@ A production-inspired deployment platform built on AWS — push code to GitHub a
 
 ## Architecture
 
-\`\`\`
 git push → GitHub Actions
                 ↓
          Docker Build
@@ -19,7 +18,6 @@ git push → GitHub Actions
          ALB (Load Balancer)
                 ↓
          Auto Scaling + CloudWatch
-\`\`\`
 
 ---
 
@@ -46,10 +44,9 @@ git push → GitHub Actions
 - [x] Docker image pushed to ECR
 - [x] ECS Task Definition + Service
 - [x] ALB Load Balancer
-- [ ] Auto Scaling policy
-- [ ] GitHub Actions CI/CD pipeline
-- [ ] CloudWatch monitoring + SNS alerts
-- [ ] Blue-green deployment
+- [x] Auto Scaling policy
+- [x] GitHub Actions CI/CD pipeline
+- [x] CloudWatch monitoring + SNS alerts
 
 ---
 
@@ -67,7 +64,7 @@ git push → GitHub Actions
 
 ## Local Setup
 
-\`\`\`bash
+bash
 # Clone repo
 git clone https://github.com/Ashwin52/aws-deployment-platform.git
 cd aws-deployment-platform
@@ -80,13 +77,12 @@ docker run -p 8000:8000 deployment-platform-app
 
 # Test
 curl http://localhost:8000/health
-\`\`\`
 
 ---
 
 ## Infrastructure Setup
 
-\`\`\`bash
+bash
 # Initialize Terraform
 cd terraform
 terraform init
@@ -96,7 +92,6 @@ terraform plan
 
 # Apply
 terraform apply
-\`\`\`
 
 ---
 
@@ -105,4 +100,3 @@ terraform apply
 **Ashwin** — ECE Student | Aspiring Cloud & DevOps Engineer
 
 [![GitHub](https://img.shields.io/badge/GitHub-Ashwin52-black)](https://github.com/Ashwin52)
->>>>>>> 4430a56 (docs: add detailed README)
